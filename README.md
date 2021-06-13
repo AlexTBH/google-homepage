@@ -1,0 +1,1 @@
+Following TheOdinProject curriculum copying Google's homepage design.
