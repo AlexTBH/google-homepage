@@ -1,7 +1,5 @@
 body {
     height: 100%;
-    margin: 0;
-    padding: 0;
     font-size: 14px;
     font-family: arial, sans-serif;;
     color: #222;
@@ -9,30 +7,33 @@ body {
 }
 
 .navbar {
-position:relative;
-display:block;
+
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-}
 
 .searchbar {
-display: flex;
-margin-top: 20px;
 height: 44px;
 border-radius: 24px;
 border: 1px solid #dfe1e5;
 width: 584px;
+margin: auto;
 }
 
 .logo {
-display: flex;
-flex-direction: column;
-align-items: center;
-object-position: center bottom;
-object-fit: contain;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.searchfunction {
+width: 450px;
+margin-left: 14px;
+height: 35px;
+outline-width: 0;
+}
+
+.searchbar img {
+height: 20px;
+width: 20px;
+padding-top: 3px;
 }
