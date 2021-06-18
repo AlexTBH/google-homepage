@@ -1,13 +1,30 @@
-body {
-    height: 100%;
+html, body {
+    min-height: 100%;
     font-size: 14px;
     font-family: arial, sans-serif;;
     color: #222;
     background: #fff;
+    margin: 0px;
+    overflow: auto;
 }
 
 .navbar {
+    float: right;
+    margin-top: 20px;
+}
 
+.navbar a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#login {
+    background-color: #1a73e8;
+    margin: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
 }
 
 
@@ -17,12 +34,14 @@ border-radius: 24px;
 border: 1px solid #dfe1e5;
 width: 584px;
 margin: auto;
+margin-top: 20px;
 }
 
 .logo {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 150px;
 }
 
 .searchfunction {
@@ -30,10 +49,19 @@ width: 450px;
 margin-left: 14px;
 height: 35px;
 outline-width: 0;
+outline: 0;
+padding-top: 3px;
+font-size: 16px;
+border: none;
 }
 
 .searchbar img {
 height: 20px;
 width: 20px;
-padding-top: 3px;
+}
+
+.magnifying {
+    float: left;
+    margin-left: 15px;
+    margin-top: 12px;
 }
