@@ -65,3 +65,57 @@ width: 20px;
     margin-left: 15px;
     margin-top: 12px;
 }
+
+.microphone {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin: 7px;
+    padding: 14px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;   
+}
+
+footer {
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #f2f2f2;
+}
+
+.footerInfo {
+    border-top: 1px solid rgb(206, 199, 199);
+    height: 30px;
+    padding: 15px 30px 5px 30px;
+}
+
+.footerInfo a {
+    text-decoration: none;
+    color: rgb(128, 118, 118);
+    padding-right: 20px;
+}
+
+.footerCountry {
+    height: 20px;
+    color: rgb(128, 118, 118);
+    padding: 15px 30px;
+    font-size: 16px;
+}
+
+
+.footerInfoRight {
+    float: right;
+}
